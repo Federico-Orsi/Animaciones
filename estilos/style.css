@@ -583,6 +583,11 @@ grid-area: contabilidad;
     
   /* Sección Nosotros */
     
+  
+  #bodyNosotros{
+    background-image: linear-gradient(to bottom, rgb(238, 77, 8), rgb(229, 237, 14));
+}
+  
   #imgTablet{
         width:auto;
     }
