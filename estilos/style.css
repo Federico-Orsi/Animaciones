@@ -534,6 +534,32 @@ grid-area: contabilidad;
         #logoHome{
             margin-right: 125px;
         }
+
+        #faceIcon:hover{
+        transform: scale(125%);
+        transition: all 1s;
+        }
+
+        #twitterIcon:hover{
+        transition: all 1s;
+        transform: scale(125%);
+        }
+
+        #instIcon:hover{
+        transform: scale(125%);
+        transition: all 1s;
+        }
+
+        #youTubeIcon:hover{
+        transform: scale(125%);
+        transition: all 1s;
+        }
+
+        #whatsIcon:hover{
+        transform: scale(125%);
+        transition: all 1s;
+      
+}
     
     
      /* Sección Contabilidad */
@@ -545,7 +571,18 @@ grid-area: contabilidad;
             margin-bottom: 70px;
         
         }    
+
+        .servicios:hover{
+                          transform: scale(125%);
+                          transition: all 1s;
+                    
+        }
      
+
+        
+
+
+
     
      /* Sección Finanzas */
      
@@ -583,10 +620,10 @@ grid-area: contabilidad;
     
   /* Sección Nosotros */
     
-  #bodyNosotros{
-      background-image: linear-gradient(to bottom, rgb(238, 77, 8), rgb(229, 237, 14));
-  }
   
+  #bodyNosotros{
+    background-image: linear-gradient(to bottom, rgb(238, 77, 8), rgb(229, 237, 14));
+}
   
   #imgTablet{
         width:auto;
