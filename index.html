@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/dd300d9aad.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./estilos/style.css">
     <title>Home</title>
 </head>
@@ -61,17 +62,19 @@
             <p class="redes">Síguenos en nuestras redes sociales:</p>
         </section>
         
-    <section id="indexFooter">
-        <i class="fa-brands fa-facebook"></i>
-        <i class="fa-brands fa-twitter"></i>
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-brands fa-whatsapp"></i>
-        <i class="fa-brands fa-youtube"></i>
+    <section id="indexFooter" data-aos="fade-right" data-aos-duration="3000">
+        <i class="fa-brands fa-facebook" id="faceIcon"></i>
+        <i class="fa-brands fa-twitter" id="twitterIcon"></i>
+        <i class="fa-brands fa-instagram" id="instIcon"></i>
+        <i class="fa-brands fa-whatsapp" id="whatsIcon"></i>
+        <i class="fa-brands fa-youtube" id="youTubeIcon"></i>
     </section>
 
     </footer>
     
-
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
